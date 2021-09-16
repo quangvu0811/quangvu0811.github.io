@@ -1,0 +1,405 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header{
+    position: fixed;
+    top: 0;left: 0;right: 0;
+    background: #fff;
+    padding: 1rem 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: var(--box-shadow);
+    background: rgb(50, 108, 235);
+   ;
+    
+}
+header .logo{
+    color: #fff;
+    font-size: 30px;
+}
+header .navbar a{
+    color: #fff;
+    padding: 10px;
+    
+}
+header .navbar .active{
+    color: yellow;
+}
+header .navbar .active:hover{
+    color: rgb(161, 161, 13);
+}
+
+
+header .icon{
+    color: #fff;
+}
+.img img{
+  
+    width: 100%;
+    height: 35rem;
+   
+}
+
+.conten{
+    display: flex;
+    width: 100%;
+   
+   
+}
+.conten .trai{
+    margin-left: 60px;
+    margin-top:5rem ;
+    
+    width: 50%;
+    line-height: 1.3;
+    padding-left: 122px;
+}
+.conten .trai .icon{
+    display: flex;
+}
+.conten .trai .icon .gach{
+    width: 47px;
+    height: 5px;
+    background: rgb(62, 77, 212);
+    margin: 7px 7px;
+}
+.conten .trai .icon p:hover{
+    text-decoration: underline;
+}
+
+.conten-img {
+    margin-top: 5rem;
+}
+.conten-img .imgtrai{
+    width: 50%;
+}
+.conten-img .imgtrai img{
+    height: 415px;
+}
+
+
+.conten-img  .imgphai{
+    width: 50%;
+    
+}
+.giua{
+    position: relative;
+    top: -316px;left: 713px;
+
+}
+.giua .tay{
+    display: flex;
+}
+.giua .tay img{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top:10px ;
+
+}
+.giua .tay .text{
+    color:rgb(255, 255, 255);
+    padding-left: 10px;
+    
+    line-height: 2;
+}
+.giua .tay img{
+    margin-top:39px ;
+}
+.icontrang{
+    display: flex;
+    padding-left: 53px;
+    padding-bottom: 20px;
+}
+
+.icontrang .gach{
+    width: 50px;
+    height: 2px;
+    background: rgb(255, 255, 255);
+    margin: 10px 7px;
+    
+}
+.icontrang p{
+    color: white;
+    font-size: 20px;
+}
+.icontrang p:hover{
+    text-decoration: underline;
+}
+
+
+
+
+.conten .phai{
+    margin-top:5rem ;
+    padding-right: 149px;
+}
+
+
+.conten .trai h3{
+    font-size:1.6rem ;
+    padding: .5rem 0;
+}
+.conten-img{
+    display: flex;
+}
+.conten-img .imgtrai{
+    width: 50%;
+
+
+}
+.conten-img .imgtrai img{
+    width: 100%;
+    
+}
+.conten-img .imgphai{
+    width: 50%;
+
+
+}
+.conten-img .imgphai img{
+    width: 100%;
+
+}
+
+
+
+.bao{
+    display: flex;
+    gap: 1.5rem;
+    
+    justify-content: space-between;
+    padding: 5rem;
+ 
+}
+.bao .trai{
+            width: 30%;
+            border: .1rem solid rgba(0,0,0,.2);
+            border-radius: 5px;
+            height: 100%;
+}
+.bao .trai img {
+    width: 100%;
+    height: 25%;
+    border-radius: 4px;
+}
+.bao .trai h3{
+    font-size: 20px;
+    padding: 20px 0 0 25px;
+
+}
+.bao .trai .duoi{
+    margin: 15px 0 15px 24px;
+    color: blue;
+}
+.bao .trai .duoi a:hover{
+    text-decoration: underline;
+    color: rgb(108, 108, 172);
+}
+.bao .trai .duoi:hover{color: rgb(108, 108, 172);}
+.bao .trai h4{
+    margin-top:13px; 
+    padding-left: 24px;
+    color:#645454;
+}
+section{
+    margin-top: -185px;
+    margin-left: 5rem;
+    position: relative;
+}
+section .icon{
+    display: flex;
+    margin-left: -5rem;
+}
+section .icon .gach{
+    width: 47px;
+    height: 5px;
+    background: rgb(62, 77, 212);
+    margin: 7px 7px;
+    margin-left: 10rem;
+}
+section .icon p{
+        font-weight: bold;
+        font-size: 18px;
+
+
+}
+section .icon p:hover{
+    text-decoration: underline;
+}
+
+
+section h1{
+position: absolute;
+top: 60px;
+    left: 82px;
+}
+
+
+
+
+
+.ghi{
+    display: flex;
+    margin-left: 10rem;
+    
+}
+
+.ghi .to .icon{
+    display: flex;
+    margin-left: -5px;
+    padding-bottom: 10px;
+}
+.ghi .to .icon  .gach{
+    width: 47px;
+    height: 5px;
+    background: rgb(62, 77, 212);
+    margin: 7px 7px;
+}
+.ghi .to .icon p:hover{
+    text-decoration: underline;
+}
+
+.ghi .inputBox  {
+    width: 50%;
+    margin-left: -8px;
+    display: flex;
+    padding: 5px;
+}
+.ghi .inputBox .input {
+    display: block;
+    margin: 2px;
+}
+.ghi .inputBox .input input{
+   
+    border-radius: .5rem;
+    padding: 1rem;
+   
+    
+    text-transform: none;
+    margin-bottom: 1rem;
+    
+    
+}
+
+
+input:focus,
+textarea:focus{
+    color:rgb(70, 186, 240) ;
+    border:3px solid rgb(70, 186, 240);;
+    border-radius: .5px ;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    display: inline-block;
+   
+    color: rgb(255, 255, 255);
+    background: rgb(255 200 0 / 84%);
+    border-radius: .5rem;
+    cursor: pointer;
+    padding: .5rem 1rem; 
+    width: 10rem;
+    height: 3rem;
+    margin-left: 10rem;
+}
+
+
+.btn:hover{
+    background: rgb(186, 197, 84);
+ 
+}
+
+.ghi .img{
+    width: 555px;
+    height: 200px;
+    margin-left: 40px;
+}
+.ghi .img img{
+    width: 100%;
+    height: 100%;
+}
+
+.footer {
+    margin-left: 0;
+    
+}
+.footer .box-container{
+    display: flex;
+    gap: 1.5;
+   margin-left: 0;
+    margin-top: 15rem;
+    background: rgb(41, 40, 40);
+    height: 15rem;
+ 
+    
+}
+.footer .box-container .box{
+    padding-top: 3rem;
+    padding-left: 8rem;
+    line-height: 1.5;
+    align-items: center;
+    padding: 40px 0 0 50px;
+    margin-left: 50px;
+}
+.footer .box-container .box h3,h4{
+    color: white;
+}.footer .box-container .box a{
+    color: white;
+}
+.footer .box-container .box h3{
+    font-size: 25px;
+}
+
+.footer .box-container .box .huong {
+    color: white;
+}
+.footer .box-container .box .huong :hover{
+    color: rgb(132, 200, 221);
+}
+.footer .box-container .box .huong a:hover{
+    text-decoration: underline;
+}
+.footer .box-container .box .tim{
+    display: flex;
+}
+.footer  .credit{
+    text-align: center;
+    border-top: .1rem solid rgba(241, 237, 237, 0.459);
+    font-size: 1rem;
+    color: var(--black);
+    padding: .5rem;
+    padding-top: 3.2rem;
+    background:rgb(41, 40, 40) ;
+    color: white;
+    padding-bottom: 37px;
+}
+.tim input {
+    margin-top: 20px;
+   width: 15rem;
+   height: 2.3rem;
+   background: rgb(41, 40, 40);
+}
+.tim .text{
+    width: 65px;
+    height: 35px;
+    background: white;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+}
+.tim .text span{
+    position: absolute;
+    top: 4px;left: 5px;
+    font-weight: bold;
+}
